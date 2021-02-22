@@ -1,7 +1,7 @@
 class Refrigerator:
     refrigerator_count: int = 0
 
-    def __init__(self, manufacturer="Not specified", volume: float = 0, weight: float = 0, power_consumption = 0, price: float = 0, model = "Not specified", model_year = 0):
+    def __init__(self, manufacturer="Not specified", volume: float=0, weight: float=0, power_consumption=0, price: float=0, model="Not specified", model_year=0):
         self.manufacturer = manufacturer
         self.volume = volume
         self.weight = weight
